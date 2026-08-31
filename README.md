@@ -1,4 +1,4 @@
-# ✨ AI LinkedIn Post Generator
+#  AI LinkedIn Post Generator
 
 An AI-powered pipeline that turns raw notes into a polished, ready-to-publish LinkedIn post — using two open-source LLMs working together as a **Writer** and an **Editor**, wrapped in a colorful Gradio UI.
 
@@ -9,7 +9,7 @@ An AI-powered pipeline that turns raw notes into a polished, ready-to-publish Li
 
 ---
 
-## 🧠 How it works
+##  How it works
 
 1. **Writer Model** (`Qwen/Qwen3-1.7B`) takes your raw info (bullet points, achievements, project notes) and writes a natural, human-sounding first draft.
 2. **Editor Model** (`Qwen/Qwen2.5-3B`) reviews the draft for grammar, tone, structure, and engagement — and returns the final, publish-ready post.
@@ -19,7 +19,7 @@ An AI-powered pipeline that turns raw notes into a polished, ready-to-publish Li
 Your notes  →  🖊️ Writer Model  →  Draft  →  🔎 Editor Model  →  Final Post
 ```
 
-## 🎨 Features
+##  Features
 
 - Two-stage **writer → reviewer** pipeline for higher-quality, human-sounding output
 - No invented achievements — the model is strictly instructed to use only what you provide
@@ -27,7 +27,7 @@ Your notes  →  🖊️ Writer Model  →  Draft  →  🔎 Editor Model  →  
 - Fully open-source models via 🤗 Hugging Face `transformers` (no paid API required)
 - Ready to run on **Google Colab** with a free T4 GPU
 
-## 📦 Tech Stack
+##  Tech Stack
 
 | Component | Tool |
 |---|---|
@@ -36,7 +36,7 @@ Your notes  →  🖊️ Writer Model  →  Draft  →  🔎 Editor Model  →  
 | UI | Gradio |
 | Runtime | Google Colab (T4 GPU) |
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Run on Google Colab (recommended)
 1. Open `hugface_30_8_with_UI.ipynb` in Google Colab.
@@ -54,13 +54,13 @@ jupyter notebook hugface_30_8_with_UI.ipynb
 
 > ⚠️ Requires a CUDA-capable GPU with enough VRAM to load both models (works comfortably on a T4).
 
-## 🖼️ Preview
+##  Preview
 
 <img width="900" alt="UI preview" src="assets/ui-preview.png">
 
 *(add a screenshot of the Gradio app here after your first run)*
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -70,14 +70,14 @@ jupyter notebook hugface_30_8_with_UI.ipynb
 └── assets/                      # Screenshots / demo images
 ```
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Add support for other post formats (Twitter/X, Instagram captions)
 - [ ] Let the user pick tone (formal / casual / storytelling)
 - [ ] Add a "history" tab to keep previously generated posts
 - [ ] Swap in larger/smaller models via a dropdown
 
-## 🤝 Contributing
+##  Contributing
 
 Issues and PRs are welcome! If you have ideas for prompt improvements or UI features, feel free to open an issue.
 
