@@ -24,7 +24,7 @@ Your notes  →  🖊️ Writer Model  →  Draft  →  🔎 Editor Model  →  
 - Two-stage **writer → reviewer** pipeline for higher-quality, human-sounding output
 - No invented achievements — the model is strictly instructed to use only what you provide
 - Colorful, custom-themed **Gradio** interface with live progress and copy-to-clipboard
-- Fully open-source models via 🤗 Hugging Face `transformers` (no paid API required)
+- Fully open-source models via Hugging Face `transformers` (no paid API required)
 - Ready to run on **Google Colab** with a free T4 GPU
 
 ##  Tech Stack
@@ -32,7 +32,7 @@ Your notes  →  🖊️ Writer Model  →  Draft  →  🔎 Editor Model  →  
 | Component | Tool |
 |---|---|
 | Models | Qwen3-1.7B (writer), Qwen2.5-3B (editor) |
-| Framework | 🤗 Transformers |
+| Framework | Transformers |
 | UI | Gradio |
 | Runtime | Google Colab (T4 GPU) |
 
