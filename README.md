@@ -57,7 +57,6 @@ jupyter notebook hugface_30_8_with_UI.ipynb
 
 <img width="900" alt="UI preview" src="assets/ui-preview.png">
 
-*(add a screenshot of the Gradio app here after your first run)*
 
 ##  Project Structure
 
