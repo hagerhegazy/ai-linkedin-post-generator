@@ -5,7 +5,6 @@ An AI-powered pipeline that turns raw notes into a polished, ready-to-publish Li
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Transformers](https://img.shields.io/badge/🤗-Transformers-yellow)
 ![Gradio](https://img.shields.io/badge/UI-Gradio-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -81,6 +80,3 @@ jupyter notebook hugface_30_8_with_UI.ipynb
 
 Issues and PRs are welcome! If you have ideas for prompt improvements or UI features, feel free to open an issue.
 
-## 📄 License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
